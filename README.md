@@ -1,12 +1,34 @@
-# React + Vite
+# Weather App 🌦️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive **Weather Application** built with **React.js** that fetches real-time weather data using an external API.  
 
-Currently, two official plugins are available:
+This project demonstrates the use of **API integration, React hooks (`useState`, `useEffect`)**, and handling asynchronous requests.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
+- Search for any city to get current weather data  
+- Displays temperature, humidity, wind speed, and weather condition  
+- Responsive design for desktop and mobile  
+- Error handling for invalid city names  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+- **React.js** – UI library  
+- **JavaScript (ES6+)**  
+- **HTML5 & CSS3**  
+- **OpenWeatherMap API** (for weather data)  
+
+---
+
+
+📖 Learnings
+
+Using React Hooks (useState, useEffect) for state and lifecycle management
+
+Making API requests with fetch
+
+Handling async code and errors in UI
+
+Managing environment variables in React
